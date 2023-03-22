@@ -1,0 +1,21 @@
+{
+  "name": "MoneyTime",
+  "productName": "money-time",
+  "description": "Your Time is Money!",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "roydo",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "moment": "2.29.4",
+    "electron-prompt": "1.7.0",
+    "@electron/remote": "2.0.9",
+    "electron-preferences": "2.8.2"
+  },
+  "devDependencies": {
+    "electron": "23.1.4"
+  }
+}
